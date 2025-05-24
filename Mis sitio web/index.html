@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arquitectura de Computadoras</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+
+  <header class="bg-blue-900 text-white p-6 text-center">
+    <h1 class="text-3xl font-bold">Arquitectura de Computadoras</h1>
+    <p class="mt-2">Creado por Leonardo Daniel Blanco Camacho</p>
+  </header>
+
+  
+<nav class="bg-white shadow mb-6">
+  <div class="max-w-4xl mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="text-lg font-semibold text-blue-900">Seleccionar contenido:</div>
+    <select onchange="location.hash=this.value" class="p-2 border border-gray-300 rounded">
+      <option value="#inicio">-- Ir a sección --</option>
+      <option value="#unidades">Unidades</option>
+      <option value="#practica1">Práctica 1</option>
+      <option value="#practica2">Práctica 2</option>
+      <option value="#practica3">Práctica 3</option>
+      <option value="#practica4">Práctica 4</option>
+      <option value="#practica5">Práctica 5</option>
+      <option value="#procesadores">Procesadores</option>
+      <option value="#cotizacion">Cotización</option>
+      <option value="#diseno">Diseño de equipos</option>
+      <option value="#gamas">Gamas de equipos</option>
+    </select>
+  </div>
+</nav>
+<main id="inicio" class="max-w-4xl mx-auto py-10 px-6">
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">Introducción</h2>
+      <p>
+        Este sitio presenta prácticas fundamentales en la materia de Arquitectura de Computadoras. Se incluyen actividades relacionadas con la memoria RAM, el ensamblaje de hardware, análisis de procesadores, cotizaciones y más documentación técnica.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-2">Índice</h2>
+      <ul class="list-disc list-inside">
+        <li><a href="#practica1" class="text-blue-700 underline">Reporte Práctica 1</a></li>
+        <li><a href="#practica2" class="text-blue-700 underline">Reporte Práctica 2</a></li>
+        <li><a href="#practica3" class="text-blue-700 underline">Práctica 3: Memorias RAM</a></li>
+        <li><a href="#practica4" class="text-blue-700 underline">Práctica 4: Desarmado y armado de computadoras</a></li>
+        <li><a href="#practica5" class="text-blue-700 underline">Reporte Práctica 5: Realidad Virtual</a></li>
+        <li><a href="#procesadores" class="text-blue-700 underline">Procesadores de Intel y AMD</a></li>
+        <li><a href="#cotizacion" class="text-blue-700 underline">Cotización</a></li>
+        <li><a href="#diseno" class="text-blue-700 underline">Diseño de equipos</a></li>
+        <li><a href="#gamas" class="text-blue-700 underline">Gamas de equipos de cómputo</a></li>
+      </ul>
+    </section>
+
+    <section id="practica1" class="mb-10">
+      <h3 class="text-xl font-semibold mb-2">Reporte Práctica 1</h3>
+      <embed src="docs/Reporte_Practica_1.pdf" type="application/pdf" width="100%" height="500px"/>
+    </section>
+
+    <section id="practica2" class="mb-10">
+      <h3 class="text-xl font-semibold mb-2">Reporte Práctica 2</h3>
+      <embed src="docs/Reporte_Practica_2.pdf" type="application/pdf" width="100%" height="500px"/>
+    </section>
+
+    <section id="practica3" class="mb-10">
+      <h3 class="text-xl font-semibold mb-2">Práctica 3: Memorias RAM</h3>
+      <embed src="docs/Reporte_Practica_3_Memorias_RAM.pdf" type="application/pdf" width="100%" height="500px"/>
+    </section>
+
+    <section id="practica4" class="mb-10">
+      <h3 class="text-xl font-semibold mb-2">Práctica 4: Desarmado y armado de computadoras</h3>
+      <embed src="docs/Reporte_Practica_4_Armado_Computadoras.pdf" type="application/pdf" width="100%" height="500px"/>
+    </section>
+
+    <section id="practica5" class="mb-10">
+      <h3 class="text-xl font-semibold mb-2">Reporte Práctica 5: Realidad Virtual</h3>
+      <embed src="docs/Reporte_Practica_5_RV.pdf" type="application/pdf" width="100%" height="500px"/>
+    </section>
+
+    <section id="procesadores" class="mb-10">
+      <h3 class="text-xl font-semibold mb-2">Procesadores de Intel y AMD</h3>
+      <embed src="docs/Procesadores_Intel_AMD.pdf" type="application/pdf" width="100%" height="500px"/>
+    </section>
+
+    <section id="cotizacion" class="mb-10">
+      <h3 class="text-xl font-semibold mb-2">Cotización</h3>
+      <embed src="docs/Cotizacion.pdf" type="application/pdf" width="100%" height="500px"/>
+    </section>
+
+    <section id="diseno" class="mb-10">
+      <h3 class="text-xl font-semibold mb-2">Diseño de equipos</h3>
+      <embed src="docs/Diseno_de_equipos.pdf" type="application/pdf" width="100%" height="500px"/>
+    </section>
+
+    <section id="gamas" class="mb-10">
+      <h3 class="text-xl font-semibold mb-2">Gamas de equipos de cómputo</h3>
+      <embed src="docs/Gamas_de_equipos_de_computo.pdf" type="application/pdf" width="100%" height="500px"/>
+    </section>
+  </main>
+
+  <footer class="bg-gray-200 text-center p-4 text-sm text-gray-600">
+    © 2025 Leonardo Daniel Blanco Camacho
+  </footer>
+
+</body>
+</html>
+
+    <section id="unidades" class="mb-10">
+      <h2 class="text-2xl font-bold mb-4">Unidades</h2>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold">Unidad 1: Modelos de Arquitectura de Computación</h3>
+        <p>
+          La Unidad 1 "Modelos de Arquitectura de Computación" introduce los principios fundamentales detrás del diseño y funcionamiento de las computadoras. Desde la arquitectura clásica de von Neumann hasta las más modernas y especializadas, se exploran conceptos como la jerarquía de memoria, las arquitecturas RISC vs. CISC y los sistemas paralelos. Los estudiantes obtienen una comprensión sólida de cómo interactúan los componentes clave, como la CPU, la memoria y los dispositivos de entrada/salida, para ejecutar programas y procesar datos, sentando las bases para el estudio avanzado de la informática y la ingeniería de sistemas.
+        </p>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold">Unidad 2: Organización y Estructura de un Procesador</h3>
+        <p>
+          La Unidad 2 "Organización y Estructura de un Procesador" explora en detalle cómo están organizados y diseñados los procesadores para ejecutar instrucciones y realizar operaciones. Desde la arquitectura de la unidad de control hasta la ejecución de instrucciones en la unidad de ejecución, los estudiantes examinan cómo se procesan y manipulan los datos dentro del procesador. Se estudian temas como la pipeline, la caché, las unidades funcionales y los métodos de predicción de ramas, proporcionando una comprensión profunda de cómo funciona internamente un procesador y cómo estas estructuras impactan en su rendimiento y eficiencia.
+        </p>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold">Unidad 3: Chipset y Aplicaciones</h3>
+        <p>
+          La Unidad 3 "Chipset y Aplicaciones" se sumerge en el papel fundamental que desempeñan los chipsets en el funcionamiento de una computadora. Los estudiantes exploran cómo los chipsets actúan como interfaz entre el procesador, la memoria, los dispositivos de entrada/salida y otros componentes del sistema, coordinando y gestionando eficientemente el flujo de datos. Además, se analizan aplicaciones específicas de los chipsets en diferentes contextos, como en sistemas embebidos, servidores, dispositivos móviles y computación de alto rendimiento, brindando una comprensión amplia de su importancia y diversidad de usos en el panorama tecnológico actual.
+        </p>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-semibold">Unidad 4: Aspectos Básicos de la Computación Paralela</h3>
+        <p>
+          La Unidad 4 "Aspectos Básicos de la Computación Paralela" se adentra en los fundamentos esenciales de cómo se diseñan y desarrollan sistemas informáticos que ejecutan tareas en paralelo. Desde la comprensión de los conceptos básicos de la programación paralela hasta la exploración de arquitecturas de hardware dedicadas, los estudiantes examinan cómo se pueden distribuir las cargas de trabajo para lograr un procesamiento más rápido y eficiente. Se estudian técnicas como el procesamiento en paralelo a nivel de instrucción y a nivel de datos, así como también se analizan los desafíos y las soluciones para garantizar la sincronización y la coherencia de los datos en entornos paralelos. Esta unidad proporciona una base sólida para comprender y aplicar los principios de la computación paralela en una variedad de contextos y aplicaciones.
+        </p>
+      </div>
+    </section>
